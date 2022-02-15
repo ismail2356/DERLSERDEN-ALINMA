@@ -278,7 +278,56 @@ public class DizilerÖğrenme {
             
             
             
-            //
+            // DİZİNİN ELAMANLARINI TEK Mİ ÇİFT Mİ ? DİYE EKRANA YAZMA
+            
+            
+            
+            
+            package rastgelesayıuretme;
+
+import java.util.Random;
+public class RastgeleSayıUretme {
+    
+    public static void main(String[] args) {
+       /*
+        Random ran=new Random();
+        int a=ran.nextInt(5);
+        System.out.println(a);
+        */
+      int dizi[]={12,13,14,54,6,4,3,5,67,78,89,80,86,123,3445,56,};
+      System.out.print("çift sayılar:");
+      for(int i=0;i<dizi.length;i++){
+      if(dizi[i]%2==0){
+      System.out.print(dizi[i]+" ");
+          
+      
+      }
+      
+      }
+      System.out.println();
+     System.out.print("tek sayılar:");
+     for(int i=0;i<dizi.length;i++){
+     if(dizi[i]%2==1){
+         System.out.print(dizi[i]+" ");
+     
+     }
+     
+     }
+      
+      
+      
+        
+        
+        
+    }
+    
+}
+ 
+  
+   
+    
+     //
+     
       
       
        
