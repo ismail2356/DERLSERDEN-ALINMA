@@ -366,7 +366,52 @@ public class Alıştırma {
     }
     
 ________________________________________________________________________________________________________________
+     &&&&&&&&&&&&&&&&&&&&&&&++&&&&&&&&&&&&&&&&&&^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&&&&&&&&&&/((((((((()>
      
+     
+     
+     
+package mukemmelsayı;
+
+import java.util.Scanner;
+public class MukemmelSayı{
+
+    
+    public static void main(String[] args) {
+        Scanner scan=new Scanner (System.in);
+        for(;;){
+        System.out.println( "lütfen sayıyı giriniz");
+        int sayi=scan.nextInt();
+        int sayac=0;
+        
+        System.out.print(" bölen sayılar: " );
+        for(int i=1;i<sayi;i++){
+        if(sayi%i==0){
+        System.out.print(i +" " );
+        
+        sayac+=i;
+        }
+        
+        
+        }
+        
+        if(sayac==sayi)
+            System.out.println(sayi+" sayısı mükemmel sayıdır");
+        
+        else
+            System.out.println(sayi +"sayısı mükemmel değil");
+                
+        }      
+        
+        
+    }
+
+    
+    }
+    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&///////////////////////(((((((((((((((((((((((((()))))))))))))))))))))))))))))))
       
       
        
