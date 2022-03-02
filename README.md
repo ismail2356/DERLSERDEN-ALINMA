@@ -27,6 +27,8 @@ public class AsalSayıKontrol {
     
 }
 
+
+_________________???????????????????======================_______________==============================================
       // TAŞ KAĞIT MAKAS OYUNU
 
 package javaapplication21;
@@ -65,7 +67,7 @@ public class JavaApplication21 {
 }
 
 
-
+____________________________________________________________________________________???????????????????________________________
      // DİZİNİN EN KÜÇÜK ELAMNI BULMA VE EKRANDAN DİZİ ELAMANI GİRME
      
      package dizi.en.küçük.elamanı.bulma;
@@ -102,7 +104,7 @@ public class DiziEnKüçükElamanıBulma {
 }
      
      
-     
+     ________________________)_____________________________=______________?_________________________________________-
         // ÇARPIM TABLOSU
         
         
@@ -142,7 +144,7 @@ public class CarpımTablosu {
 
 
 
-
+___________________=______________=_____________=________________________=________?_____________________________________________
        //  DİZİN ELAMANLAEINI KÜÇÜKTEN BÜYÜYĞE SIRLAMA
        
        
@@ -182,7 +184,7 @@ public class DiziSıralama {
 
 
       
-      
+      _________________________________________________________________________?________________________________________________
       // DİZİLER ÖĞRENME
       
       //diziler(arrays) En büyük avantajı döngülerde
@@ -276,7 +278,7 @@ public class DizilerÖğrenme {
 
             
             
-            
+        ________________________________________________________________________________________________________________________    
             
             // DİZİNİN ELAMANLARINI TEK Mİ ÇİFT Mİ ? DİYE EKRANA YAZMA
             
@@ -326,7 +328,44 @@ public class RastgeleSayıUretme {
   
    
     
-     //
+     /////////////////////////////////////////////////////////////
+    _______________________________________________________________ 
+     
+     PALİNDROM SAYI BULMA
+     
+     package alıştırma;
+
+import java.util.Scanner;
+public class Alıştırma {
+
+    
+    public static void main(String[] args) {
+        Scanner scan=new Scanner (System.in);
+        for(;;){
+        System.out.println("lütfen palindrom oduğunu düşündüğünüz tam sayısını giriniz");
+        int palindrom=scan.nextInt();
+        int ilkdeger=palindrom;
+        int sondeger=0;
+        while(palindrom>0){
+            sondeger=sondeger*10 + palindrom%10;
+        palindrom= palindrom /10;
+        
+        }
+      
+        if(ilkdeger==sondeger)
+            System.out.println(ilkdeger+ " sayısı palindrom sayıdır");
+                
+    else
+            System.out.println(ilkdeger +" sayısı palindrom sayı değil");
+        
+        
+        }
+    }
+
+    
+    }
+    
+________________________________________________________________________________________________________________
      
       
       
