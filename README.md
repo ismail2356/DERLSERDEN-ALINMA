@@ -414,5 +414,31 @@ public class MukemmelSayı{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&&&///////////////////////(((((((((((((((((((((((((()))))))))))))))))))))))))))))))
       
       
+      package alıştırma;
+
+import java.util.Scanner;
+public class Alıştırma {
+
+    
+    public static void main(String[] args) {
+        Scanner scan=new Scanner (System.in);
+        for(;;){
+        System.out.println("lütfen palindrom olduğunu düşündüğünüz kdelimeyi giriniz");
+        String ilkkelime=scan.nextLine();
+        String sonkelime="";
+        
+         for(int i=(ilkkelime.length()-1);i>=0;i--)
+             sonkelime+=ilkkelime.charAt(i);
+         if(sonkelime.equals(ilkkelime))
+             System.out.println("palindrom kelime");
+         else
+             System.out.println("palindrom kelime değil");
+        }
+    }
+    }
+    
+   ^^^^^^^^^^^^^^^^^^^^+++++++++++++++++%%%%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&///////////////>(((((((((((((^ééééééééééééééééééé!!!!!!!!!!!'''''''''^^^^^^^^^^
+
+
        
        
