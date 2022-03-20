@@ -439,6 +439,40 @@ public class Alıştırma {
     
    ^^^^^^^^^^^^^^^^^^^^+++++++++++++++++%%%%%%%%%%%%%%%%%%%%%%%&&&&&&&&&&&&&&&&&&&///////////////>(((((((((((((^ééééééééééééééééééé!!!!!!!!!!!'''''''''^^^^^^^^^^
 
+        // sını oluşruma kutunun hacmini hesaplama
+       package alıştırma;
 
-       
+import java.util.Scanner;
+
+ class Kutu{
+     int en;
+ int boy;
+ int yükseklik;
+ void TestKutu(int en,int boy,int yükseklik){
+ 
+ int hacim=en*boy*yükseklik;
+ System.out.println(hacim);
+ }
+ }
+public class Alıştırma {
+ 
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("hacminiz hesaplamak istediğiniz kotunun boy,en ve yüksekliğini giriniz");
+        int en=scan.nextInt();
+        int boy=scan.nextInt();
+        int yükseklik=scan.nextInt();
+        Kutu hacim= new Kutu();
+        hacim.TestKutu(en,boy,yükseklik);
+        
+        
+        
+}
+   
+
+        
+    
+    }
+    
+
        
