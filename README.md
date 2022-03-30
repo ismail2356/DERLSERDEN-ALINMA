@@ -581,6 +581,38 @@ public class Alıştırma{
     }
     
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
+    // overriding
+    
+    package javaapplication31;
+ 
+class SinifA{
+
+protected int sayi=6;
+public String ad="kaos";
+public String metod(){
+    return ad+sayi;
+
+}
+}
+class SinifB extends SinifA{
+
+    public String metod(){
+    return ad+sayi+ad+sayi;
+    }
+
+}
+
+public class JavaApplication31 {
+
+    
+    public static void main(String[] args) {
+       SinifB  nesne=new SinifB();
+       System.out.println(nesne.metod());
+        
+    }
+    
+}
 
        
