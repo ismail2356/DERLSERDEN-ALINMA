@@ -527,6 +527,59 @@ public class Alıştırmalar2 {
    }
     
 }
+ 
+ 
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+  // NESNEYE YÖNELİK PROGRAMLAMA
+  
+  
+package alıştırma;
+
+import java.util.Scanner;
+ class Sinif{
+       
+    String renk;//durum(özellik) diyer bir değişle attribute. KENDİSİ BİR NESNE DEĞİŞKENDİR SONRADAN ATANIR
+    
+    int boy;//durum(özellik) diyer bir değişle attribute
+    
+    int yas;//durum(özellik) diyer bir değişle attribute
+    static int genelKod=00101223;//SINIF DEĞİŞKENİ diyer bir isimle STATİC değişken tüm nesler için ortaktır ve direkt değeri alır
+    static int alanKod;// bu değeri son nesne için değiştirsek diğer tüm nesler bu  yeni değeri alır.
+     void yukariGit()//durum/davranış/metod(actions)
+     {
+         System.out.println("yukarı gidiyor");
+     }
+    
+     int metod(int n1,int n2,int n3){
+     return n1*n2*n3;
+     }
+    }
+ 
+public class Alıştırma{
+    
+    
+ 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        Sinif nesne= new Sinif();// nesneyi oluşturduk
+        
+        nesne.renk="siyah";//nesnenin renk özelliğne değer atadık
+        
+        System.out.println(nesne.renk);// ekrana yazdırdık
+        nesne.yukariGit();//metodu yani actions(davranışı) cağırdık ve doğasında olanı yapar
+        
+        // nesnein metodunu direkt çağırma veya bir değere ekleme
+        int carpim=nesne.metod(2, 5, 8);
+        System.out.println(nesne.metod(2,5,8) + carpim);
+        
+}
+   
+
+        
+    
+    }
+    
 
     
 
