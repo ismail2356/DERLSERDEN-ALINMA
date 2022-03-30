@@ -474,5 +474,60 @@ public class Alıştırma {
     
     }
     
+    
+    &&&&&&&&&&&&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%MR%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    // ÜST SINIFLARDAN ALT SINIF TÜRETME 
+      
+      package alıştırmalar2;
+
+class Telefon{
+    public Telefon(){// yapıcılar nesne oluşturulduğu anda çalışmaya başlar
+    System.out.println("Telefon sınıfının yapıcısı");
+    }
+public Telefon(int b){
+System.out.println("paremetreli yapı");
+}
+}
+    class AkilliTelefon extends Telefon{
+     public AkilliTelefon(){
+     System.out.println("AkilliTelefon sınıfının yapıcısı");
+     }}
+    class cepTelefonu extends Telefon{
+        public cepTelefonu(){
+        System.out.println("cepTelefonu sınıfının yapıcısı");
+        }}
+    class Nokia extends cepTelefonu{
+    public Nokia(){
+    System.out.println("Nokia sınıfının yapıcısı");
+    }
+    }
+    class NokiaA1 extends Nokia{
+        public NokiaA1(){
+        System.out.println("bu son kısımdı şimdi kaybol");
+        }
+    
+    }
+
+public class Alıştırmalar2 {
+
+    
+    
+    
+            
+    public static void main(String[] args) {
+       
+        Telefon n1=new Telefon(5);
+        
+        NokiaA1 n=new NokiaA1();
+                
+                
+    
+    
+   }
+    
+}
+
+    
 
        
