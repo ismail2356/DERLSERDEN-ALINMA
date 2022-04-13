@@ -614,5 +614,53 @@ public class JavaApplication31 {
     }
     
 }
+================================?????????????????????????????????============================================
 
+
+
+package alistirmalar2;
+// poliformizim
+class Sinif{
+
+    public  void yaz(){
+    System.out.println("En üst sınıf");
+    
+    }}
+class BirinciAlt extends Sinif{
+
+public void yaz(){
+System.out.println("Burası BirinciAlt sınıfı");
+}
+}
+class İkinciAlt extends Sinif{
+public void yaz(){
+System.out.println("Burası İkinciALt sınıf");
+}}
+
+ 
+
+public class Alistirmalar2 {
+ public static void nesneAl(Sinif nesne){
+ 
+ nesne.yaz();
+ }
+   
+    
+    
+    public static void main(String[] args) {
+        
+        Sinif a= new Sinif();
+        BirinciAlt a1= new BirinciAlt();
+        İkinciAlt a2=new İkinciAlt();
+        nesneAl(a);
+        nesneAl(a1);
+        nesneAl(a2);
+        
+     
+        
+
+        
+    }
+}
+   
        
