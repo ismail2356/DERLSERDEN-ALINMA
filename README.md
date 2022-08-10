@@ -1,4 +1,4 @@
-# DERLSERDEN-ALINMA
+# DERSLSERDEN-ALINMA
    // ASAL SAYI KONTROL
 package asalsayıkontrol;
 
@@ -189,7 +189,7 @@ public class DiziSıralama {
       
       //diziler(arrays) En büyük avantajı döngülerde
 //Dizilerin tipi istedeğimiz tipte olabilir
-//dizilerde değerleri sırayla kurtucuk şeklinde bellekte yer tutar(tren vagonları gibi) 
+//dizilerde değerleri sırayla kutucuk şeklinde bellekte yer tutar(tren vagonları gibi) 
 // [] işareti genelikle bir diziyi belirtir
 
 
@@ -210,7 +210,7 @@ public class DizilerÖğrenme {
         
         String stri[]={"Gönder","Gelsin","Kodları","Durmasın"};//String tipinde dizi
         
-        System.out.println(b[2] + "," + a[3] + "," + stri[2]);//cıktı 80, 6, kodları olmsı gerek 
+        System.out.println(b[2] + "," + a[3] + "," + stri[2]);//cıktı 80, 6 olmsı gerek 
         
         int arr[]={1,5,8,9,6,2,10,55,56,80};
         for(int i=0;i<arr.length;i++){//length dizinin uzunluğunu garantilemek için kullandık
